@@ -1,0 +1,26 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
+<div id="portfolio" class="span12">
+  <ul>
+    {% for post in site.posts %}
+    <li class="span4 item" data-id="id-1" data-type="web" style="background-image: url('/assets/{{post.image}}');">
+      <div class="description">
+        <h1 class="title">{{ post.title }}</h1>
+        <div id="someid" class="content hidden">
+          {{ post.content }}
+          {% if post.github %}
+
+          {% endif %}
+          <ul class="tech">
+          {% for tag in post.tech %}
+            <li>{{ tag }}</li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
