@@ -11,5 +11,5 @@ A hammer toss game that resulted from a weekend hackathon with the Best of Briti
 <i class="fa fa-github-square fa-2x"></i>
 </a>
 <a href="https://itunes.apple.com/gb/app/best-of-british-summer-sports/id559912898?mt=8">
-<i class="fa fa-apple"></i>
+<i class="fa fa-apple fa-2x"></i>
 </a>
