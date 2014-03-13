@@ -9,6 +9,11 @@ h1 {
   font-family: 'Belgrano', serif;
 }
 
+.intro {
+  margin-top: 30px;
+  margin-bottom: 55px;
+}
+
 .intro > .title {
   font-size: 3em;
   margin: 5px;
@@ -36,9 +41,7 @@ h1 {
   width: 375px;
   height: 275px;
   max-height: 275px;
-  border: solid black 5px;
   margin: 20px 5px;
-  border: 1px solid #3A3943;
   background-color: white;
   background-position: center center;
   background-repeat: no-repeat;
@@ -94,6 +97,11 @@ ul.tech:before {
 ul.tech > li {
   list-style-type: none;
   display: inline-table;
+}
+
+.icons {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .icons > li {
