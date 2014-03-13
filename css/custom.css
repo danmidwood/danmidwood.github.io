@@ -1,6 +1,8 @@
+
 body {
   font-family: 'Georgia';
-  background: url('/assets/perlin.png') repeat-y center top;
+  font-color: #3A3943;
+  background-color: #FF3B47;
 }
 
 h1 {
@@ -36,7 +38,7 @@ h1 {
   border: solid black 5px;
   margin: 20px 5px;
   border-radius: 9px;
-  border: 5px solid #000000;
+  border: 5px solid #3A3943;
   background-color: white;
   background-position: center center;
   background-repeat: no-repeat;
@@ -51,11 +53,11 @@ h1 {
 }
 
 #portfolio > ul > li > div.description div.content {
-  background: rgba(200, 200, 255, 0.5);
+  background: #00CCE8;
   height: 100%;
   text-align: left;
   padding: 0px 5px;
-  border-color: rgba(200, 200, 255, 1);
+  border-color: #00BCD8;
   border-style: solid;
   border-width: 10px 1px 0px 1px;
   border-top-left-radius: 2px;
@@ -103,9 +105,9 @@ ul.tech > li {
 }
 
 .icons > li > a {
-  color: #428bca;
+  color: #00CCE8;
 }
 
 .icons > li > a:hover {
-  color: #529bda;
+  color: #B2C4DB;
 }
